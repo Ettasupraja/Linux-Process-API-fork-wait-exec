@@ -45,11 +45,11 @@ int main(void)
 	return 0; }
 ```
 ##OUTPUT
-
+```
 localhost:~# ./a.out
 The process id: 97
 The process id of parent function: 61
-
+```
 ## C Program to create new process using Linux API system calls fork() and exit()
 ```
 #include <stdio.h>
@@ -69,14 +69,14 @@ exit(0);}
 ```
 
 ##OUTPUT
-
+```
 
 localhost:~# ./a.out
 I am parent, my pid is 108
 Iam child my pid is 109
 My parent pid is:108
 
-
+```
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```
 #include <stdlib.h>
@@ -104,12 +104,12 @@ printf("Running ps with execlp. Now with path specified\n");
 
 ```
 ##OUTPUT
-
+```
 localhost:~# ./a.out
 Running ps with execlp
 child exited with status of 0
 Done.
 Running ps with execlp. Now with path specified
-
+```
 # RESULT:
 The programs are executed successfully.
